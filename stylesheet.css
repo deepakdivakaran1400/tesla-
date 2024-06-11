@@ -1,0 +1,268 @@
+body {
+
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.background1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+    background-image: url(img/Homepage-Model-3-Desktop-LHD-v2.jpg)
+}
+
+header {
+    margin-top: 0;
+    padding-right: 37px;
+    padding-left: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo1 {
+    width: 121px;
+    height: 15px;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+li {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    float: left;
+    margin: 33px;
+}
+
+.tds-icon-help,
+.tds-icon-globe,
+.tds-icon-person {
+    margin-top: 15px;
+    width: 21px;
+}
+
+.model3 {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model3 h2 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.model3 h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 46px;
+}
+
+.model3 p {
+    margin: 0;
+}
+
+.background-img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/Homepage-Model-Y-Desktop-Global.jpeg);
+}
+
+.buttons {
+    font-family: "Poppins", sans-serif;
+    width: 535px;
+    height: 43px;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.buttons button:hover {
+    background-color: #313030;
+    color: rgb(8, 8, 8);
+}
+.buttons button {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.order {
+    margin-right: 30px;
+    color: rgb(6, 6, 6);
+    background-color: rgb(254, 253, 253);
+}
+
+button.demo {
+
+    color: rgb(247, 243, 243);
+    background-color: rgb(6, 5, 5);
+}
+
+.background2 {
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/img2.jpeg)
+}
+.background3 {
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/Homepage-Model-X-Desktop-v2.jpg)
+}
+
+.background4 {
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/Homepage-Model-S-Desktop-v2.jpg)
+}
+
+.models,
+.title1,
+.title2,
+.title3 {
+    color: aliceblue;
+}
+
+.background5 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/Homepage-Cybertruck-Desktop.jpg)
+}
+.buttons5{
+    font-family: "Poppins", sans-serif;
+    width: 535px;
+    height: 43px;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.buttons5 button:hover {
+    background-color: #dbdada;
+    color: rgb(8, 8, 8);
+}
+.buttons5 button {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+  
+
+button.order5 {
+    margin-right: 30px;
+    color: rgb(146, 142, 142);
+    background-color: rgb(29, 29, 29);
+}
+
+button.demo5 {
+
+    color: rgb(83, 82, 82);
+    background-color:rgb(36, 35, 35) ;
+}
+.model3 img {
+    width: 520px;
+}
+
+.background6 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/Homepage-SolarPanels-01-Desktop.jpeg)
+}
+.background7 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/Homepage-SolarRoof-Desktop-Global.jpeg)
+}
+.background8 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/Homepage-Powerwall-01-Desktop.jpg)
+}
+.background9 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(img/img9.jpg)
+}
+.buttons9{
+    font-family: "Poppins", sans-serif;
+    width: 266px;
+    height: 41px;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+
+}
+.buttons9 button{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.buttons9 button:hover {
+    
+    background-color: #8f8f8f;
+    color: rgb(8, 8, 8);
+    
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
+footer p
+{
+    font-size: 10px;
+    margin: 0;
+}
